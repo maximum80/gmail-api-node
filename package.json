@@ -2,7 +2,6 @@
   "name": "gmail-api-node",
   "version": "1.0.0",
   "description": "sample",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,6 +11,10 @@
   },
   "author": "maximum80",
   "license": "ISC",
+  "bin": {
+    "gmail":"index.js"
+  }
+
   "bugs": {
     "url": "https://github.com/maximum80/gmail-api-node/issues"
   },
