@@ -11,12 +11,20 @@
   },
   "author": "maximum80",
   "license": "ISC",
-  "bin": {
-    "gmail":"index.js"
-  }
-
   "bugs": {
     "url": "https://github.com/maximum80/gmail-api-node/issues"
   },
-  "homepage": "https://github.com/maximum80/gmail-api-node#readme"
+  "homepage": "https://github.com/maximum80/gmail-api-node#readme",
+  "preferGlobal": true,
+  "bin": {
+    "gmail": "index.js"
+  },
+  "dependencies": {
+    "fs": "0.0.2",
+    "open": "0.0.5",
+    "querystring": "^0.2.0",
+    "readline": "0.0.8",
+    "readline-sync": "^1.2.17",
+    "request": "^2.57.0"
+  }
 }
