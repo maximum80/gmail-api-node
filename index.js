@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-'use strict';
 var cmail = require('./cmail')({
   config_file: ',/config.json',
   token_file: ',/token.json',
